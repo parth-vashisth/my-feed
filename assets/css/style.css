@@ -244,6 +244,8 @@
     border: 1px solid #C0C0C0;
     background-color: #F0F0F0;
     position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .dot {
@@ -252,9 +254,17 @@
     border-radius: 50%;
     border: 1px solid black;
     position: absolute;
-    right: 50%;
+    left: 0%;
     display: flex;
     background-color: black;
+}
+
+.dot-right {
+    left: auto;
+    right: 0%;
+}
+.switch-right{
+    background-color: #1A9FFF;
 }
 
 .copy {
